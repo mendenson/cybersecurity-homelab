@@ -18,7 +18,7 @@ The main goal was to configure network communication between both virtual machin
 | Host Machine | MacBook Intel |
 | Virtualization Platform | Oracle VirtualBox |
 | Target VM | Ubuntu |
-| Testing VM | Kali Linux / Parrot OS |
+| Testing VM | Kali Linux |
 | Network Type 1 | NAT |
 | Network Type 2 | Host-only Adapter |
 | Host-only Network | vboxnet0 |
@@ -50,7 +50,7 @@ Host-only Network: 192.168.56.0/24
    |
    |---- Ubuntu VM
    |
-   |---- Kali/Parrot VM
+   |---- Kali
    ```
 
 ## 4. VirtualBox Network Configuration
@@ -85,11 +85,11 @@ screenshots/ubuntu-ip-a.png
 screenshots/kali-ip-a.png
 ```
 ## 6. Connectivity Test with Ping
-From Kali/Parrot to Ubuntu:
+From Kali to Ubuntu:
 ```
 ping <UBUNTU_HOST_ONLY_IP>
 ```
-From Ubuntu to Kali/Parrot:
+From Ubuntu to Kali:
 ```
 ping <KALI_HOST_ONLY_IP>
 ```
@@ -112,20 +112,20 @@ sudo systemctl start ssh
 sudo systemctl status ssh
 ```
 ## 8. SSH Connection Test
-From Kali/Parrot, I connected to the Ubuntu VM using SSH:
+From Kali, I connected to the Ubuntu VM using SSH:
 ```
 ssh <ubuntu_user>@<UBUNTU_HOST_ONLY_IP>
 ```
 Result:
 ```
-SSH connection from Kali/Parrot to Ubuntu was successful.
+SSH connection from Kali to Ubuntu was successful.
 ```
 Screenshot:
 ```
 screenshots/ssh-test.png
 ```
 ## 9. Nmap Scan
-From Kali/Parrot, I scanned the Ubuntu VM:
+From Kali, I scanned the Ubuntu VM:
 ```
 nmap -sV <UBUNTU_HOST_ONLY_IP>
 ```
@@ -157,7 +157,7 @@ In this lab, I learned how to:
 - Identify Linux network interfaces using ip a
 - Test connectivity between two virtual machines
 - Install and enable SSH on Ubuntu
-- Connect from Kali/Parrot to Ubuntu using SSH
+- Connect from Kali to Ubuntu using SSH
 - Run a basic Nmap service scan
 - Troubleshoot a common networking issue in a virtual lab environment
 

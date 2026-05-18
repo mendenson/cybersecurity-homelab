@@ -435,9 +435,9 @@ The following evidence was collected during this lab:
 
 |Evidence|Description|
 |---|---|
-|lab03-ssh-hardening-nmap.txt|Nmap scan showing SSH open on port 22|
-|Screenshot of password login denied|Password authentication blocked|
-|Screenshot of SSH service status|SSH service active and running|
+|[lab03-ssh-hardening-nmap.txt](https://github.com/mendenson/cybersecurity-homelab/blob/main/scams/lab3-ssh-hardening-nmap.txt)|Nmap scan showing SSH open on port 22|
+|[Screenshot of password login denied](https://github.com/mendenson/cybersecurity-homelab/blob/main/screenshots/lab03-password-login-denied.png)|Password authentication blocked|
+|[Screenshot of SSH service status](https://github.com/mendenson/cybersecurity-homelab/blob/main/screenshots/lab03-nmap-scan.png)|SSH service active and running|
 ---
 ## 23. What I Learned
 
