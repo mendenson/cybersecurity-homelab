@@ -300,30 +300,13 @@ The following evidence was collected during this lab:
 
 | Evidence | Description |
 |---|---|
-| lab02-before-hardening.txt |Nmap scan before enabling UFW |
-| lab02-after-hardening.txt | Nmap scan after enabling UFW |
-| UFW status screenshot | Firewall enabled and SSH allowed |
-| SSH test screenshot | Successful SSH connection |
-| Nmap after-hardening screenshot | Final validation scan |
+| [lab02-before-hardening.txt](https://github.com/mendenson/cybersecurity-homelab/blob/main/scams/lab02-before-hardening.txt) |Nmap scan before enabling UFW |
+| [lab02-after-hardening.txt](https://github.com/mendenson/cybersecurity-homelab/blob/main/scams/lab02-after-hardening.txt) | Nmap scan after enabling UFW |
+| [UFW status screenshot](https://github.com/mendenson/cybersecurity-homelab/blob/main/screenshots/lab02-ufw-status.png) | Firewall enabled and SSH allowed |
+| [SSH test screenshot](https://github.com/mendenson/cybersecurity-homelab/blob/main/screenshots/lab02-ssh-test.png) | Successful SSH connection |
+| [Nmap after-hardening screenshot](https://github.com/mendenson/cybersecurity-homelab/blob/main/screenshots/lab02-nmap-after-hardening.png) | Final validation scan |
 
-Suggested folder structure:
-```
-cybersecurity-homelab/
-│
-├── labs/
-│   └── lab02-linux-hardening-basics.md
-│
-├── scans/
-│   ├── lab02-before-hardening.txt
-│   └── lab02-after-hardening.txt
-│
-├── screenshots/
-│   ├── lab02-ufw-status.png
-│   ├── lab02-ssh-test.png
-│   └── lab02-nmap-after-hardening.png
-│
-└── README.md
-```
+
 
 ---
 
