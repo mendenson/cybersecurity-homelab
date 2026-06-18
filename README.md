@@ -23,7 +23,7 @@ This repository documents my cybersecurity homelab journey, focused on building 
 | Lab 01 | [VirtualBox Network, SSH and Nmap Scan](https://github.com/mendenson/cybersecurity-homelab/blob/main/labs/lab01-virtualbox-network-ssh-nmap.md) | Completed |
 | Lab 02 | [Linux Hardening Basics with UFW and Nmap Validation](https://github.com/mendenson/cybersecurity-homelab/blob/main/labs/lab02-linux-hardening-basics.md) | Completed |
 | Lab 03 | [SSH Hardening with Key-Based Authentication](https://github.com/mendenson/cybersecurity-homelab/blob/main/labs/lab03-ssh-hardening.md) | Completed |
-|Lab 04 | [Linux User and Permission Management]() | Completed |
+|Lab 04 | [Linux User and Permission Management](https://github.com/mendenson/cybersecurity-homelab/blob/main/labs/lab04-linux-user-permission-management.md) | Completed |
 |Lab 05 | Linux Log Monitoring with Auth Logs | |
 |Lab 06 | Installing and Testing Fail2Ban | |
 |Lab 07 | Docker Setup and Vulnerable Web App Deployment | |
