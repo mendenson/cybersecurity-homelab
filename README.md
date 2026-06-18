@@ -4,7 +4,7 @@ This repository documents my cybersecurity homelab journey, focused on building 
 
 ## Lab Environment
 
-- Host: Windows PC
+- Host: Windows PC / iMac
 - Virtualization: Oracle VirtualBox
 - VMs:
   - Ubuntu
@@ -23,7 +23,7 @@ This repository documents my cybersecurity homelab journey, focused on building 
 | Lab 01 | [VirtualBox Network, SSH and Nmap Scan](https://github.com/mendenson/cybersecurity-homelab/blob/main/labs/lab01-virtualbox-network-ssh-nmap.md) | Completed |
 | Lab 02 | [Linux Hardening Basics with UFW and Nmap Validation](https://github.com/mendenson/cybersecurity-homelab/blob/main/labs/lab02-linux-hardening-basics.md) | Completed |
 | Lab 03 | [SSH Hardening with Key-Based Authentication](https://github.com/mendenson/cybersecurity-homelab/blob/main/labs/lab03-ssh-hardening.md) | Completed |
-|Lab 04 | Linux User and Permission Management | |
+|Lab 04 | [Linux User and Permission Management]() | Completed |
 |Lab 05 | Linux Log Monitoring with Auth Logs | |
 |Lab 06 | Installing and Testing Fail2Ban | |
 |Lab 07 | Docker Setup and Vulnerable Web App Deployment | |
@@ -41,3 +41,13 @@ In this lab, I hardened an Ubuntu VM by enabling UFW firewall, allowing only SSH
 ## Lab 03 Summary
 
 In this lab, I hardened SSH access on the Ubuntu VM by enabling key-based authentication, disabling password authentication, blocking root login, and validating the final configuration from the Kali VM. The final Nmap scan confirmed that SSH remained open on port 22, while authentication was improved by allowing only SSH key-based access.
+
+## Lab 04 Summary
+
+In this lab, I practiced Linux user, group, and permission management by creating a role-based access control scenario on an Ubuntu VM.
+
+I created separate users and groups for security analysts and developers, configured protected directories under `/srv`, assigned ownership with `chown`, and applied restrictive permissions using `chmod`.
+
+The final configuration allowed members of the `security-team` group to access `/srv/security-reports`, while members of the `developers` group could access `/srv/dev-files`. Users outside the authorized groups were denied access.
+
+This lab reinforced important Linux security concepts such as file ownership, group-based permissions, access validation, and the principle of least privilege.
